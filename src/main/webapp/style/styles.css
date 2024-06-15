@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the login form vertically and horizontally */
+body {
+    background-color: rgb(151, 211, 253);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style the login form */
+form {
+    background-color: #fff;
+    width: 400px; /* Adjust the width as needed */
+    padding: 30px; /* Adjust the padding as needed */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    
+    color: #fff;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(32, 73, 125);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add some spacing for better readability */
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    margin-bottom: 10px;
+}
+
+/* Style placeholders */
+input::placeholder {
+    color: #a6a6a6;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+    background-color: rgb(57, 109, 144);
+}

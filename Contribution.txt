@@ -1,0 +1,53 @@
+Project: Online Hotel Reservation System
+
+Group : SE/OOP/2023/S2/MLB/WD/G44
+
+Contributor: J.Vihara Diwyanjalee
+             IT22577610
+
+Contribution Overview:
+
+	In this project, I have worked on the customer part of the system, which includes the login/logout to the website, register, update account details and delete account. My contributions encompass the implementation of CRUD (Create, Read, Update, Delete) operations for Customers.
+
+To achieve this, I have worked extensively with the following package:
+
+1. com.customer: Customer.java
+		 CustomerDBUtil.java
+		 CustomerInsertservlet.java
+		 DBConnect.java
+		 DeleteCustomerServlet.java
+		 LoginServlet.java
+		 LogoutServlet.java
+		 UpdateCustomerservlet.java
+		 useraccountServlet.java
+
+These are my jsp files : index.jsp
+			 login.jsp
+			 useraccount.jsp
+			 customerInsert.jsp
+			 updateCustomer.jsp
+			 deleteCustomer.jsp
+			 success.jsp
+			 unsuccess.jsp
+
+In relation to this process, the customer table was created under the hotel database.
+
+CREATE TABLE `customer` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `phone` varchar(10) DEFAULT NULL,
+  `username` varchar(45) DEFAULT NULL,
+  `password` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+INSERT INTO `customer ` (`id`,`name`,`email`,`phone`,`username`,`password`) VALUES (3,'Tharindu','tharindu@gmail.com','0712820607','thari','1234');
+INSERT INTO `customer ` (`id`,`name`,`email`,`phone`,`username`,`password`) VALUES (6,'sandeepa','katharindusandeepa@gmail.com','0712827607','gggg','null');
+INSERT INTO `customer ` (`id`,`name`,`email`,`phone`,`username`,`password`) VALUES (18,'sandeepakat','katharindusandeepa@gmail.com','0714567891','kamal','null');
+INSERT INTO `customer ` (`id`,`name`,`email`,`phone`,`username`,`password`) VALUES (20,'dffsf','ffff@gmail.com','0712827607','rr','null');
+INSERT INTO `customer ` (`id`,`name`,`email`,`phone`,`username`,`password`) VALUES (23,'sandeepa','new@gmail.com','0712827607','newone','null');
+INSERT INTO `customer ` (`id`,`name`,`email`,`phone`,`username`,`password`) VALUES (24,'ghhhgd','thari@gmail.com','0712827607','th','12345678');
+INSERT INTO `customer ` (`id`,`name`,`email`,`phone`,`username`,`password`) VALUES (25,'gg','san customer d@gmail.com','0712827607','ssand','123456');
+INSERT INTO `customer ` (`id`,`name`,`email`,`phone`,`username`,`password`) VALUES (26,'Cus','new@gmail.com','0712827607','new cus','1425435');
+

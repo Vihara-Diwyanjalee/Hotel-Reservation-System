@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+/* CSS code to reduce the size of the login form */
+.container {
+	
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px; /* Reduce the padding to make the form smaller */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 20%; /* Reduce the width to make the form smaller */
+    margin: 0 auto; /* This centers the container horizontally */
+}
+
+h2 {
+    color: #3498db;
+    font-size: 30px; /* Reduce the font size to make the header smaller */
+}
+
+.input-container {
+    margin-bottom: 10px; /* Reduce the margin to make the input fields closer together */
+}
+
+.input-container label {
+    display: block;
+    text-align: left;
+    font-size: 14px; /* Reduce the font size for labels */
+}
+
+.input-container input {
+    width: 100%;
+    padding: 5px; /* Reduce the padding for input fields */
+    margin-top: 5px;
+    margin-bottom: 5px; /* Reduce the margin for input fields */
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+
+.login-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px; /* Reduce the padding for the login button */
+    cursor: pointer;
+    width: 100%; /* Make the login button full-width */
+    font-size: 14px; /* Reduce the font size for the login button text */
+}
+
+p {
+    text-align: center;
+    margin-top: 10px; /* Reduce the margin for the "New Here?" text */
+    font-size: 14px; /* Reduce the font size for the text */
+}
+
+p a {
+    text-decoration: none;
+    color: #3498db;
+}
+body {
+	
+background-image: url('../img/sign1.jpg'); /* Replace with the actual path to your image */
+background-size: cover; /* Adjust the size to cover the entire viewport */
+   /* background-repeat: no-repeat; /* Prevent repeating the background image */
+background-attachment: fixed; /* Fix the background image while scrolling */
+}

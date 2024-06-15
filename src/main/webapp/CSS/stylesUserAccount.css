@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ /*   height: 100vh;*/
+}
+
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 800px; /* Limit the maximum width */
+    margin: 10 auto; /* Center the container horizontally */
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #3498db;
+    padding: 10px; /* Add padding to cells to shift content to the left */
+}
+
+th, td {
+    text-align: left; /* Align text to the left within cells */
+}
+
+a {
+    text-decoration: none;
+}
+
+table td:first-child {
+    font-weight: bold;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+/* Existing CSS styles here */
+
+/* Style for update and delete buttons */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.button-container input[type="button"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-container input[type="button"]:hover {
+    background-color: #2980b9;
+}
